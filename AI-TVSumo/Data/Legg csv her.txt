@@ -1,0 +1,1 @@
+Mappe for csv-filer vi jobber med, disse trackes ikke av git

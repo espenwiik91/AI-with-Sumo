@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="flu">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="HighTemp">
+			<state id="True" />
+			<state id="False" />
+			<parents>flu</parents>
+			<probabilities>0.9 0.09999999999999998 0.2 0.8</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.2.2601.0 ACADEMIC" name="FluModel" faultnameformat="nodestate">
+			<node id="flu">
+				<name>Flu</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>300 143 375 205</position>
+			</node>
+			<node id="HighTemp">
+				<name>HighTemp</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>307 317 368 355</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
